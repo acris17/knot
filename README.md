@@ -3,7 +3,7 @@ Minimal terminal email client with a twist.
 
 ## Prerequistes
 
-To use knot you will need an email account setup with an app-specific password. Please read the following articles for more information:
+To use knot you will need an email account set with an app-specific password. Please read the following articles for more information:
 - [apple app-specific password](https://support.apple.com/en-us/102654)
 - [gmail app-specific password](https://support.google.com/accounts/answer/185833?hl=en)
 
@@ -20,11 +20,15 @@ knot> boxes
 ```
 knot> pull
 ```
-3. To read an email use the `read` command along with an index.
+3. Finally run the `list` command to see what was pulled.
+```
+knot> list
+```
+4. To read an email use the `read` command along with an index.
 ```
 knot> read 0
 ```
-4. To send an email use the `send` command and follow the prompts.
+5. To send an email use the `send` command and follow the prompts.
 ```
 knot> send
 ```
@@ -33,7 +37,7 @@ knot> send
 
 ## Design Goals
 1. Minimal: Keep dependencies to a minimum.
-2. Modularity: Can add multiple commands in the future.
+2. Modularity: Can add features when needed.
 3. Portability: Attempts to run anywhere Go is supported.
 
 ## Name Origin
