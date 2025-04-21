@@ -1,11 +1,13 @@
 # Knot
 Minimal terminal email client with a twist.
 
-## Prerequistes
+## Prerequisites
 
 To use knot you will need an email account set with an app-specific password. Please read the following articles for more information:
 - [apple app-specific password](https://support.apple.com/en-us/102654)
 - [gmail app-specific password](https://support.google.com/accounts/answer/185833?hl=en)
+
+This password will be used to log into knot.
 
 ## Installation
 1. Clone the repo to your computer
